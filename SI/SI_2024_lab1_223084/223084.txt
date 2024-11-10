@@ -1,0 +1,73 @@
+git init - Иницијализација на локален репо
+git remote add origin git@github.com:hristovskii/SI_2024_lab1_223084.git Поврзување на локален репо со remote репо
+nano README.md - Создавање на README.md датотека користејќи Nano editorи внесување мои податоци
+git add README.md - Додавање на датотеката за следен комит
+git commit -m "Initial commit" - Правиме комит со порака "Initial commit"
+git add . - Со точката нагласуваме дека ги додааваме сите датотеки 
+git commit -m "Add starter code" - Правиме комит со порака "Add starter code" со додадени сите (3) датотеки
+git push -u origin master - Синхронизација на локален репо со remote репо
+git branch bug1 - Правиме нова гранка наречена bug1
+git branch bug2 - Правиме нова гранка наречена bug2
+git checkout bug1 - Се префрламе на гранка bug1
+nano SILab1_1.java - Правиме измени кои ни се наведени во 8а
+git add SILab1_1.java - Ја додаваме само датотеката "SILab1_1" за следен комит
+git commit -m "Fix wrong condition in filterOddLengthStrings" - Правиме комит
+git checkout bug2 - Се префрламе на гранка bug2
+nano SILab1_2.java - Правиме измени кои ни се наведени во 8b
+git add SILab1_2.java - ја додаваме само датотеката "SILab1_2" за следен комит
+git commit -m "Fix wrong condition in makeBigStringFrom" - Правиме комит
+git checkout bug1 - Се префрламе на гранка bug1
+nano SILab1Main.java - Правиме измени кои ни се наведени во чекор 15
+git add SILab1Main.java - ја додаваме само датотеката "SILab1Main" за следен комит
+git commit -m "Call method filterOddLengthStrings in main class" - Правиме комит
+git checkout bug2 - Се префрламе на гранка bug2
+nano SILab1Main.java - Правиме измени кои ни се наведени во чекор 17
+git add SILab1Main.java - ја додаваме само датотеката "SILab1Main" за следен комит 
+git commit -m "Call method makeBigStringFrom in main class" - Правиме комит
+
+Правиме синхронизација на сите гранки
+git push -u origin master - синхронизација на master 
+git push -u origin bug1 - синхронизација на bug1
+git push -u origin bug2 - синхронизација на bug2
+git checkout master - Се префрламе на гранка master
+git merge bug1 - Ја спојуваме гранката bug1 во гранката master со употреба ма merge
+
+ОБЈАСНУВАЊе НА ЧЕКОР 20: 
+ -Нема конфликти
+ -Се спои со FAST-FORAWRD
+
+Правиме синхронизација на сите гранки
+git push -u origin master - синхронизација на master 
+git push -u origin bug1 - синхронизација на bug1
+git push -u origin bug2 - синхронизација на bug2
+
+
+
+git checkout bug2 - Се префрламе на гранка bug2
+git rebase master - Правиме rebase од гранката bug2 кон гранката master
+nano SILab1Main.java - Правиме измени во "SILab1Main" 
+git add SILab1Main.java - Ја додаваме само датотеката "SILab1Main" за следниот комит
+git rebase --continue - Продолжуваме со --continue
+
+ОБЈАСНУВАЊЕ НА ЧЕКОР 23: 
+- Се предизвика конфликт 
+- Го решив конфликтот со тоа што ги избришав непотребните линии код и остана тоа што треба  
+
+git checkout master - Се префрламе на гранка master
+git merge bug2 - Ја спојуваме гранката bug2 во гранката master
+
+ОБЈАСНУВАЊЕ НА ЧЕКОР 25:
+- Нема конфликти
+- Се спои со FAST-FORWARD
+
+Правиме синхронизација на сите гранки
+git push -u origin master - синхронизација на master 
+git push -u origin bug1 - синхронизација на bug1
+git push -u origin bug2 - синхронизација на bug2
+
+git log - Ни ги покажува сите логови до сега
+nano logs.txt - Правиме датотека logs.txt и ги ставаме сите досегашни логови
+nano 223084.txt - Правиме датотека со нашиот индекс и ја ставаме оваа документација со сите искористени команди и објаснувања
+git add . - Ги додаваме сите датотеки за следен комит
+git commit -m "Final commit" - Правиме комит
+git push -u origin master - синхронизација на master 

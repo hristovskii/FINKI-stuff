@@ -1,0 +1,24 @@
+﻿@model Lab3_samostojno.Models.AddUserToRole
+@{
+    ViewBag.Title = "AddUserToRoleFromEmail";
+}
+
+<h2>AddUserToRoleFromEmail</h2>
+
+@using (Html.BeginForm("AddedUserToRole", "Account"))
+{
+    <div class="form-group">
+        <div>
+            @Html.LabelFor(m => m.Email);
+            @Html.TextBoxFor(m => m.Email);
+        </div>
+        <div>
+            @Html.LabelFor(m => m.Roles);
+            @Html.DropDownListFor(m => m.SelectedRole, new SelectList(Model.Roles), new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <button type="submit">Submit</button>
+    </div>
+}

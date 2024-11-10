@@ -1,0 +1,212 @@
+1. Komandi za install:
+Install-Package jquery.datatables -Version 1.10.15
+Install-Package Microsoft.jQuery.Unobtrusive.Ajax
+Enable-Migrations
+Add-Migration Name
+Update-Database
+
+2.Modeli:
+	-Hospital
+		public virtual List<Doctor> Doctors { get; set; }
+
+	-Doctor
+    	public bool IsEmployed { get; set; }
+    	public virtual Hospital Hospital { get; set; }
+    	public virtual List<Patient> Patients { get; set; }
+
+	-Patient
+		[Required]
+		public string Name { get; set; }
+		[Range(10000, 99999, ErrorMessage = " only 5 digits")]
+		[Display(Name = "Kod na pacient")]
+		public int PatientCode { get; set; }
+		public string Gender { get; set; }
+		public virtual List<Doctor> Doctors { get; set; }
+
+	-PatientGnders
+	 public class PatientGenders
+	{
+		public int PatientId { get; set; }
+		public string SelectedGender { get; set; }
+		public Patient Patient { get; set; }
+		public List<string> Genders { get; set; } = new List<string>()
+		{
+			"Male", "Female"
+		};
+	}
+
+	-IdentityModels
+	public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
+		{
+    public DbSet<Hospital> Hospitals { get; set; }
+    public DbSet<Doctor> Doctors { get; set; }
+    public DbSet<Patient> Patients { get; set; }
+		}
+
+	-ManageViewModels (Najdole)
+	public class AddUserToRole
+		{
+			public string Email { get; set; }
+			public string SelectedRole { get; set; }
+			public List<string> Roles { get; set; } = new List<string>() 
+			{ 
+				"Administrator", "Editor", "User" 
+			};
+		}
+
+	-HospitalDoctor
+	public class HospitalDoctor
+		{
+			public int HospitalId { get; set; }
+			public int DoctorId { get; set; }
+			public List<Doctor> Doctors { get; set; }
+			public HospitalDoctor()
+			{
+				Doctors = new List<Doctor>();
+			}
+		}
+
+	-DoctorPatient
+	public class DoctorPatient
+		{
+			public int DoctorId { get; set; }
+			public int PatientId { get; set; }
+			public Patient Patient { get; set; }
+			public List<Patient> Patients { get; set; }
+			public DoctorPatient() 
+			{ 
+				Patients = new List<Patient>();
+			}
+		}
+
+3. Controllers
+	-HospitalsController
+			public ActionResult AddDoctor(int id) //NAPRAVI VIEW OD OVA
+			{
+				HospitalDoctor model = new HospitalDoctor();
+				model.HospitalId = id;
+
+				foreach(Doctor d in db.Doctors.ToList())
+				{
+					if(d.IsEmployed == false)
+					{
+						model.Doctors.Add(d);
+					}
+				}
+				return View(model); 
+			}
+
+		public ActionResult AddedDoctor(HospitalDoctor model)
+		{
+			var hospital = db.Hospitals.Find(model.HospitalId);
+			var doctor = db.Doctors.Find(model.DoctorId);
+
+			doctor.IsEmployed=true;
+			hospital.Doctors.Add(doctor);
+			doctor.Hospital = hospital;
+			
+			db.SaveChanges();
+
+			return RedirectToAction("Index", "Hospitals");
+		}
+
+	-DoctorsController
+		public ActionResult AddPatient(int id)  //NAPRAVI VIEW OD OVA
+		{
+			DoctorPatient model = new DoctorPatient();
+
+			model.DoctorId = id;
+			model.Patients = db.Patients.ToList();
+
+			return View(model);
+		}
+
+		public ActionResult AddedPatient(DoctorPatient model)
+		{
+			var doctor = db.Doctors.Find(model.DoctorId);
+			var patient = db.Patients.Find(model.PatientId);
+
+			doctor.Patients.Add(patient);
+			patient.Doctors.Add(doctor);
+
+			db.SaveChanges();
+
+			return RedirectToAction("Index", "Doctors");
+		}
+
+	-PatientController
+		public ActionResult Edit(int id)
+		{
+			PatientGenders model = new PatientGenders();
+
+			model.PatientId = id;
+			model.Patient = db.Patients.Find(id);
+
+			return View(model);
+		}
+
+		public ActionResult Edited(PatientGenders model)
+		{
+			var patient = db.Patients.Find(model.PatientId);
+			patient.Gender = model.Patient.Gender;
+			db.SaveChanges();
+
+			return RedirectToAction("Index", "Patients");
+		}
+
+
+4. Views
+	-Hospitals - AddDoctor.cshtml
+		@model Lab3_samostojno.Models.HospitalDoctor
+		@{
+			ViewBag.Title = "AddDoctor";
+		}
+
+		<h2>AddDoctor</h2>
+
+		@using (Html.BeginForm("AddedDoctor", "Hospitals"))
+		{ 
+			@Html.HiddenFor(m=>m.HospitalId)
+			<div class="form-group">
+				<h5>Add a doctor to Hospital</h5>
+				
+				@Html.DropDownListFor(m=>m.DoctorId, new SelectList(Model.Doctors, "Id", "Name"), new { @class = "form-control" })
+			</div>
+
+			<div class="form-group">
+				<button type="submit">Submit</button>
+			</div>
+		}
+
+	-Hospital = Details
+	<div>
+		<ul>
+			@foreach(var doctor in Model.Doctors)
+			{
+				<li>
+					@Html.ActionLink(doctor.Name, "Details", "Doctors", new { id = doctor.Id }, null)
+				</li>
+			}
+		</ul>
+	</div>
+
+	-Hospital - Index 
+
+	thead i tbody 
+
+	@section Scripts{
+    <script>
+        $(document).ready(function () {
+            $("#hospitals").DataTable();
+        })
+    </script>
+    }
+
+	-Doctors - AddPatient (Isto kako kaj hospital, 
+	samo smeni najdgore models.DoctorPatient & PatientId)
+
+	-Doctors - Index
+		@Html.ActionLink("Add a patient", "AddPatient", new { id=item.Id })
+
+	-Doctors - Details 
+	 isto kako kaj Hospital details samo smeni model.Patients i vo action link isto

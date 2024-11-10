@@ -1,0 +1,45 @@
+﻿@model Lab3_samostojno.Models.Doctor
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Doctor</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IsEmployed)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IsEmployed)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+
+<div>
+    <ul>
+        @foreach (var patient in Model.Patients)
+        {
+            <li>
+                @Html.ActionLink(patient.Name, "Details", "Patients", new { id = patient.Id }, null)
+            </li>
+        }
+    </ul>
+</div>

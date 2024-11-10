@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Pedzo\\source\\repos\\internet_tehnologii_lab1_grupa_b\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE71DD27-1652-494C-899B-146BE51C7E7B}|internet_tehnologii_lab1_grupa_b\\internet_tehnologii_lab1_grupa_b.csproj|c:\\users\\pedzo\\source\\repos\\internet_tehnologii_lab1_grupa_b\\internet_tehnologii_lab1_grupa_b\\uspesnoglasanje.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AE71DD27-1652-494C-899B-146BE51C7E7B}|internet_tehnologii_lab1_grupa_b\\internet_tehnologii_lab1_grupa_b.csproj|solutionrelative:internet_tehnologii_lab1_grupa_b\\uspesnoglasanje.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE71DD27-1652-494C-899B-146BE51C7E7B}|internet_tehnologii_lab1_grupa_b\\internet_tehnologii_lab1_grupa_b.csproj|c:\\users\\pedzo\\source\\repos\\internet_tehnologii_lab1_grupa_b\\internet_tehnologii_lab1_grupa_b\\uspesnoglasanje.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE71DD27-1652-494C-899B-146BE51C7E7B}|internet_tehnologii_lab1_grupa_b\\internet_tehnologii_lab1_grupa_b.csproj|solutionrelative:internet_tehnologii_lab1_grupa_b\\uspesnoglasanje.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE71DD27-1652-494C-899B-146BE51C7E7B}|internet_tehnologii_lab1_grupa_b\\internet_tehnologii_lab1_grupa_b.csproj|c:\\users\\pedzo\\source\\repos\\internet_tehnologii_lab1_grupa_b\\internet_tehnologii_lab1_grupa_b\\najava.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AE71DD27-1652-494C-899B-146BE51C7E7B}|internet_tehnologii_lab1_grupa_b\\internet_tehnologii_lab1_grupa_b.csproj|solutionrelative:internet_tehnologii_lab1_grupa_b\\najava.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE71DD27-1652-494C-899B-146BE51C7E7B}|internet_tehnologii_lab1_grupa_b\\internet_tehnologii_lab1_grupa_b.csproj|c:\\users\\pedzo\\source\\repos\\internet_tehnologii_lab1_grupa_b\\internet_tehnologii_lab1_grupa_b\\glasaj.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{AE71DD27-1652-494C-899B-146BE51C7E7B}|internet_tehnologii_lab1_grupa_b\\internet_tehnologii_lab1_grupa_b.csproj|solutionrelative:internet_tehnologii_lab1_grupa_b\\glasaj.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE71DD27-1652-494C-899B-146BE51C7E7B}|internet_tehnologii_lab1_grupa_b\\internet_tehnologii_lab1_grupa_b.csproj|c:\\users\\pedzo\\source\\repos\\internet_tehnologii_lab1_grupa_b\\internet_tehnologii_lab1_grupa_b\\glasaj.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE71DD27-1652-494C-899B-146BE51C7E7B}|internet_tehnologii_lab1_grupa_b\\internet_tehnologii_lab1_grupa_b.csproj|solutionrelative:internet_tehnologii_lab1_grupa_b\\glasaj.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE71DD27-1652-494C-899B-146BE51C7E7B}|internet_tehnologii_lab1_grupa_b\\internet_tehnologii_lab1_grupa_b.csproj|c:\\users\\pedzo\\source\\repos\\internet_tehnologii_lab1_grupa_b\\internet_tehnologii_lab1_grupa_b\\najava.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE71DD27-1652-494C-899B-146BE51C7E7B}|internet_tehnologii_lab1_grupa_b\\internet_tehnologii_lab1_grupa_b.csproj|solutionrelative:internet_tehnologii_lab1_grupa_b\\najava.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "uspesnoGlasanje.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Pedzo\\source\\repos\\internet_tehnologii_lab1_grupa_b\\internet_tehnologii_lab1_grupa_b\\uspesnoGlasanje.aspx.cs",
+              "RelativeDocumentMoniker": "internet_tehnologii_lab1_grupa_b\\uspesnoGlasanje.aspx.cs",
+              "ToolTip": "C:\\Users\\Pedzo\\source\\repos\\internet_tehnologii_lab1_grupa_b\\internet_tehnologii_lab1_grupa_b\\uspesnoGlasanje.aspx.cs",
+              "RelativeToolTip": "internet_tehnologii_lab1_grupa_b\\uspesnoGlasanje.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T20:04:04.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "uspesnoGlasanje.aspx",
+              "DocumentMoniker": "C:\\Users\\Pedzo\\source\\repos\\internet_tehnologii_lab1_grupa_b\\internet_tehnologii_lab1_grupa_b\\uspesnoGlasanje.aspx",
+              "RelativeDocumentMoniker": "internet_tehnologii_lab1_grupa_b\\uspesnoGlasanje.aspx",
+              "ToolTip": "C:\\Users\\Pedzo\\source\\repos\\internet_tehnologii_lab1_grupa_b\\internet_tehnologii_lab1_grupa_b\\uspesnoGlasanje.aspx",
+              "RelativeToolTip": "internet_tehnologii_lab1_grupa_b\\uspesnoGlasanje.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-21T19:34:40.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "glasaj.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Pedzo\\source\\repos\\internet_tehnologii_lab1_grupa_b\\internet_tehnologii_lab1_grupa_b\\glasaj.aspx.cs",
+              "RelativeDocumentMoniker": "internet_tehnologii_lab1_grupa_b\\glasaj.aspx.cs",
+              "ToolTip": "C:\\Users\\Pedzo\\source\\repos\\internet_tehnologii_lab1_grupa_b\\internet_tehnologii_lab1_grupa_b\\glasaj.aspx.cs",
+              "RelativeToolTip": "internet_tehnologii_lab1_grupa_b\\glasaj.aspx.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAuwEYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T19:48:02.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "glasaj.aspx",
+              "DocumentMoniker": "C:\\Users\\Pedzo\\source\\repos\\internet_tehnologii_lab1_grupa_b\\internet_tehnologii_lab1_grupa_b\\glasaj.aspx",
+              "RelativeDocumentMoniker": "internet_tehnologii_lab1_grupa_b\\glasaj.aspx",
+              "ToolTip": "C:\\Users\\Pedzo\\source\\repos\\internet_tehnologii_lab1_grupa_b\\internet_tehnologii_lab1_grupa_b\\glasaj.aspx",
+              "RelativeToolTip": "internet_tehnologii_lab1_grupa_b\\glasaj.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-21T19:34:23.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "najava.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Pedzo\\source\\repos\\internet_tehnologii_lab1_grupa_b\\internet_tehnologii_lab1_grupa_b\\najava.aspx.cs",
+              "RelativeDocumentMoniker": "internet_tehnologii_lab1_grupa_b\\najava.aspx.cs",
+              "ToolTip": "C:\\Users\\Pedzo\\source\\repos\\internet_tehnologii_lab1_grupa_b\\internet_tehnologii_lab1_grupa_b\\najava.aspx.cs",
+              "RelativeToolTip": "internet_tehnologii_lab1_grupa_b\\najava.aspx.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwCkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T19:38:12.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "najava.aspx",
+              "DocumentMoniker": "C:\\Users\\Pedzo\\source\\repos\\internet_tehnologii_lab1_grupa_b\\internet_tehnologii_lab1_grupa_b\\najava.aspx",
+              "RelativeDocumentMoniker": "internet_tehnologii_lab1_grupa_b\\najava.aspx",
+              "ToolTip": "C:\\Users\\Pedzo\\source\\repos\\internet_tehnologii_lab1_grupa_b\\internet_tehnologii_lab1_grupa_b\\najava.aspx",
+              "RelativeToolTip": "internet_tehnologii_lab1_grupa_b\\najava.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-03-21T19:34:04.873Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

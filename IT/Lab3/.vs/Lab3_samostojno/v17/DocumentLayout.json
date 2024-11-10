@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Pedzo\\source\\repos\\Lab3_samostojno\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E450B233-2D3C-4EF4-92DF-4F3C25523A00}|Lab3_samostojno\\Lab3_samostojno.csproj|c:\\users\\pedzo\\source\\repos\\lab3_samostojno\\lab3_samostojno\\views\\account\\addusertorolefromemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E450B233-2D3C-4EF4-92DF-4F3C25523A00}|Lab3_samostojno\\Lab3_samostojno.csproj|solutionrelative:lab3_samostojno\\views\\account\\addusertorolefromemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E450B233-2D3C-4EF4-92DF-4F3C25523A00}|Lab3_samostojno\\Lab3_samostojno.csproj|c:\\users\\pedzo\\source\\repos\\lab3_samostojno\\lab3_samostojno\\migrations\\202406021748091_addedroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E450B233-2D3C-4EF4-92DF-4F3C25523A00}|Lab3_samostojno\\Lab3_samostojno.csproj|solutionrelative:lab3_samostojno\\migrations\\202406021748091_addedroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E450B233-2D3C-4EF4-92DF-4F3C25523A00}|Lab3_samostojno\\Lab3_samostojno.csproj|c:\\users\\pedzo\\source\\repos\\lab3_samostojno\\lab3_samostojno\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E450B233-2D3C-4EF4-92DF-4F3C25523A00}|Lab3_samostojno\\Lab3_samostojno.csproj|solutionrelative:lab3_samostojno\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E450B233-2D3C-4EF4-92DF-4F3C25523A00}|Lab3_samostojno\\Lab3_samostojno.csproj|c:\\users\\pedzo\\source\\repos\\lab3_samostojno\\lab3_samostojno\\models\\manageviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E450B233-2D3C-4EF4-92DF-4F3C25523A00}|Lab3_samostojno\\Lab3_samostojno.csproj|solutionrelative:lab3_samostojno\\models\\manageviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E450B233-2D3C-4EF4-92DF-4F3C25523A00}|Lab3_samostojno\\Lab3_samostojno.csproj|c:\\users\\pedzo\\source\\repos\\lab3_samostojno\\lab3_samostojno\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E450B233-2D3C-4EF4-92DF-4F3C25523A00}|Lab3_samostojno\\Lab3_samostojno.csproj|solutionrelative:lab3_samostojno\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E450B233-2D3C-4EF4-92DF-4F3C25523A00}|Lab3_samostojno\\Lab3_samostojno.csproj|c:\\users\\pedzo\\source\\repos\\lab3_samostojno\\lab3_samostojno\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E450B233-2D3C-4EF4-92DF-4F3C25523A00}|Lab3_samostojno\\Lab3_samostojno.csproj|solutionrelative:lab3_samostojno\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E450B233-2D3C-4EF4-92DF-4F3C25523A00}|Lab3_samostojno\\Lab3_samostojno.csproj|c:\\users\\pedzo\\source\\repos\\lab3_samostojno\\lab3_samostojno\\views\\doctors\\addpatient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E450B233-2D3C-4EF4-92DF-4F3C25523A00}|Lab3_samostojno\\Lab3_samostojno.csproj|solutionrelative:lab3_samostojno\\views\\doctors\\addpatient.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E450B233-2D3C-4EF4-92DF-4F3C25523A00}|Lab3_samostojno\\Lab3_samostojno.csproj|c:\\users\\pedzo\\source\\repos\\lab3_samostojno\\lab3_samostojno\\views\\doctors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E450B233-2D3C-4EF4-92DF-4F3C25523A00}|Lab3_samostojno\\Lab3_samostojno.csproj|solutionrelative:lab3_samostojno\\views\\doctors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E450B233-2D3C-4EF4-92DF-4F3C25523A00}|Lab3_samostojno\\Lab3_samostojno.csproj|c:\\users\\pedzo\\source\\repos\\lab3_samostojno\\lab3_samostojno\\controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E450B233-2D3C-4EF4-92DF-4F3C25523A00}|Lab3_samostojno\\Lab3_samostojno.csproj|solutionrelative:lab3_samostojno\\controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E450B233-2D3C-4EF4-92DF-4F3C25523A00}|Lab3_samostojno\\Lab3_samostojno.csproj|c:\\users\\pedzo\\source\\repos\\lab3_samostojno\\lab3_samostojno\\views\\patients\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E450B233-2D3C-4EF4-92DF-4F3C25523A00}|Lab3_samostojno\\Lab3_samostojno.csproj|solutionrelative:lab3_samostojno\\views\\patients\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E450B233-2D3C-4EF4-92DF-4F3C25523A00}|Lab3_samostojno\\Lab3_samostojno.csproj|c:\\users\\pedzo\\source\\repos\\lab3_samostojno\\lab3_samostojno\\views\\doctors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E450B233-2D3C-4EF4-92DF-4F3C25523A00}|Lab3_samostojno\\Lab3_samostojno.csproj|solutionrelative:lab3_samostojno\\views\\doctors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "202406021748091_AddedRoles.cs",
+              "DocumentMoniker": "C:\\Users\\Pedzo\\source\\repos\\Lab3_samostojno\\Lab3_samostojno\\Migrations\\202406021748091_AddedRoles.cs",
+              "RelativeDocumentMoniker": "Lab3_samostojno\\Migrations\\202406021748091_AddedRoles.cs",
+              "ToolTip": "C:\\Users\\Pedzo\\source\\repos\\Lab3_samostojno\\Lab3_samostojno\\Migrations\\202406021748091_AddedRoles.cs",
+              "RelativeToolTip": "Lab3_samostojno\\Migrations\\202406021748091_AddedRoles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T17:48:14.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddUserToRoleFromEmail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pedzo\\source\\repos\\Lab3_samostojno\\Lab3_samostojno\\Views\\Account\\AddUserToRoleFromEmail.cshtml",
+              "RelativeDocumentMoniker": "Lab3_samostojno\\Views\\Account\\AddUserToRoleFromEmail.cshtml",
+              "ToolTip": "C:\\Users\\Pedzo\\source\\repos\\Lab3_samostojno\\Lab3_samostojno\\Views\\Account\\AddUserToRoleFromEmail.cshtml",
+              "RelativeToolTip": "Lab3_samostojno\\Views\\Account\\AddUserToRoleFromEmail.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAmwBEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T17:44:57.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ManageViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\Pedzo\\source\\repos\\Lab3_samostojno\\Lab3_samostojno\\Models\\ManageViewModels.cs",
+              "RelativeDocumentMoniker": "Lab3_samostojno\\Models\\ManageViewModels.cs",
+              "ToolTip": "C:\\Users\\Pedzo\\source\\repos\\Lab3_samostojno\\Lab3_samostojno\\Models\\ManageViewModels.cs",
+              "RelativeToolTip": "Lab3_samostojno\\Models\\ManageViewModels.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAA9wFwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T17:41:46.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Pedzo\\source\\repos\\Lab3_samostojno\\Lab3_samostojno\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Lab3_samostojno\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Pedzo\\source\\repos\\Lab3_samostojno\\Lab3_samostojno\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Lab3_samostojno\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAIkBAAAAAAAAAAAqwJYBAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T17:39:52.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FilterConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Pedzo\\source\\repos\\Lab3_samostojno\\Lab3_samostojno\\App_Start\\FilterConfig.cs",
+              "RelativeDocumentMoniker": "Lab3_samostojno\\App_Start\\FilterConfig.cs",
+              "ToolTip": "C:\\Users\\Pedzo\\source\\repos\\Lab3_samostojno\\Lab3_samostojno\\App_Start\\FilterConfig.cs",
+              "RelativeToolTip": "Lab3_samostojno\\App_Start\\FilterConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T17:37:13.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddPatient.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pedzo\\source\\repos\\Lab3_samostojno\\Lab3_samostojno\\Views\\Doctors\\AddPatient.cshtml",
+              "RelativeDocumentMoniker": "Lab3_samostojno\\Views\\Doctors\\AddPatient.cshtml",
+              "ToolTip": "C:\\Users\\Pedzo\\source\\repos\\Lab3_samostojno\\Lab3_samostojno\\Views\\Doctors\\AddPatient.cshtml",
+              "RelativeToolTip": "Lab3_samostojno\\Views\\Doctors\\AddPatient.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T16:36:19.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PatientsController.cs",
+              "DocumentMoniker": "C:\\Users\\Pedzo\\source\\repos\\Lab3_samostojno\\Lab3_samostojno\\Controllers\\PatientsController.cs",
+              "RelativeDocumentMoniker": "Lab3_samostojno\\Controllers\\PatientsController.cs",
+              "ToolTip": "C:\\Users\\Pedzo\\source\\repos\\Lab3_samostojno\\Lab3_samostojno\\Controllers\\PatientsController.cs",
+              "RelativeToolTip": "Lab3_samostojno\\Controllers\\PatientsController.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAkwEEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T15:11:20.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DoctorsController.cs",
+              "DocumentMoniker": "C:\\Users\\Pedzo\\source\\repos\\Lab3_samostojno\\Lab3_samostojno\\Controllers\\DoctorsController.cs",
+              "RelativeDocumentMoniker": "Lab3_samostojno\\Controllers\\DoctorsController.cs",
+              "ToolTip": "C:\\Users\\Pedzo\\source\\repos\\Lab3_samostojno\\Lab3_samostojno\\Controllers\\DoctorsController.cs",
+              "RelativeToolTip": "Lab3_samostojno\\Controllers\\DoctorsController.cs",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAywIQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T15:08:57.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pedzo\\source\\repos\\Lab3_samostojno\\Lab3_samostojno\\Views\\Doctors\\Index.cshtml",
+              "RelativeDocumentMoniker": "Lab3_samostojno\\Views\\Doctors\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Pedzo\\source\\repos\\Lab3_samostojno\\Lab3_samostojno\\Views\\Doctors\\Index.cshtml",
+              "RelativeToolTip": "Lab3_samostojno\\Views\\Doctors\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T15:08:06.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pedzo\\source\\repos\\Lab3_samostojno\\Lab3_samostojno\\Views\\Doctors\\Details.cshtml",
+              "RelativeDocumentMoniker": "Lab3_samostojno\\Views\\Doctors\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Pedzo\\source\\repos\\Lab3_samostojno\\Lab3_samostojno\\Views\\Doctors\\Details.cshtml",
+              "RelativeToolTip": "Lab3_samostojno\\Views\\Doctors\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T15:07:35.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Pedzo\\source\\repos\\Lab3_samostojno\\Lab3_samostojno\\Views\\Patients\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Lab3_samostojno\\Views\\Patients\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Pedzo\\source\\repos\\Lab3_samostojno\\Lab3_samostojno\\Views\\Patients\\Edit.cshtml",
+              "RelativeToolTip": "Lab3_samostojno\\Views\\Patients\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T15:00:33.79Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

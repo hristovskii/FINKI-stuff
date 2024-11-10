@@ -1,0 +1,20 @@
+﻿@model Lab3_samostojno.Models.HospitalDoctor
+@{
+    ViewBag.Title = "AddDoctor";
+}
+
+<h2>AddDoctor</h2>
+
+@using (Html.BeginForm("AddedDoctor", "Hospitals"))
+{ 
+    @Html.HiddenFor(m=>m.HospitalId)
+    <div class="form-group">
+        <h5>Add a doctor to Hospital</h5>
+        
+        @Html.DropDownListFor(m=>m.DoctorId, new SelectList(Model.Doctors, "Id", "Name"), new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        <button type="submit">Submit</button>
+    </div>
+}

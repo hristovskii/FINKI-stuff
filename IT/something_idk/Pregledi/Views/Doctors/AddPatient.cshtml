@@ -1,0 +1,34 @@
+﻿@model Pregledi.Models.AddPatientViewModel
+
+@{
+    ViewBag.Title = "Add Patient";
+}
+
+@using (Html.BeginForm("AddPatientToDoctor", "Doctors", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <div class="form-group">
+            @Html.Label("Doctors", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.SelectedDoctorId, new SelectList(Model.Doctors, "Id", "Name"), "Select a doctor", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.SelectedDoctorId, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.Label("Patients", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.SelectedPatientId, new SelectList(Model.Patients, "Id", "Name"), "Select a patient", new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.SelectedPatientId, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Add Patient" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
